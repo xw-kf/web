@@ -148,11 +148,12 @@
 
     <!-- repositories节点是配置maven下载jar的中央仓库，
     默认的是国外的，下载奇慢无比，推荐使用自己搭建sonatype nexus中央仓库 -->
+         <!--
     <repositories>
         <repository>
             <id>public</id>
             <name>public</name>
-            <url>http://172.18.100.83:8081/nexus/content/groups/public/</url>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -221,6 +222,7 @@
             </snapshots>
         </repository>
     </repositories>
+         -->
     <build>
         <plugins>
             <!-- 指定Maven编译插件，如果不设置，它就会用maven-compiler-plugin默认的jdk版本来进行处理 -->
