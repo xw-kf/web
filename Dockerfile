@@ -1,2 +1,2 @@
 FROM tomcat
-ADD output /usr/local/tomcat/webapps
+ADD output/back-1.0-SNAPSHOT /usr/local/tomcat/webapps
