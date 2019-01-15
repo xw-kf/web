@@ -121,10 +121,10 @@
     </mirror>
           -->
     <mirror>
-      <id>jd</id>
+      <id>nexus-163</id>
       <mirrorOf>*</mirrorOf>
-      <name>JD Maven Mirror</name>
-      <url>http://mirrors.jd.com/maven/</url>
+      <name>Nexus 163</name>
+      <url>http://mirrors.163.com/maven/repository/maven-public/</url>
     </mirror>
           <!--
 <mirror>
